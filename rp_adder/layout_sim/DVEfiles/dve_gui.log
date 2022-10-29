@@ -1,0 +1,25 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP1-1_Full64; Runtime version Q-2020.03-SP1-1_Full64;  Apr  6 01:02 2022
+Doing SDF annotation ...... Done
+VCD+ Writer Q-2020.03-SP1-1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+The file '/afs/ee.ust.hk/staff/ee/bxieaf/eesm5020/rp_adder/layout_sim/inter.vpd' was opened successfully.
+56 + 78 + 0: sum = 134, cout = 0
+567 + 435 + 1: sum = 1003, cout = 0
+38446 + 9354 + 0: sum = 47800, cout = 0
+8624345 + 33356752 + 1: sum = 41981098, cout = 0
+62335808 + 3884384 + 0: sum = 66220192, cout = 0
+10 + 35 + 0: sum = 45, cout = 0
+23 + 132 + 1: sum = 156, cout = 0
+3846 + 9654 + 0: sum = 13500, cout = 0
+866945 + 3324752 + 1: sum = 4191698, cout = 0
+3794967295 + 500000000 + 1: sum = 0, cout = 1
+23456 + 987654 + 0: sum = 1011110, cout = 0
+379496295 + 332475442 + 1: sum = 711971738, cout = 0
+$finish called from file "../tb/rp_adder_32bit_tb.v", line 131.
+$finish at simulation time               120000
+Simulation complete, time is 120000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 120000 ps
+CPU Time:      0.490 seconds;       Data structure size:   0.1Mb
+Wed Apr  6 01:04:38 2022

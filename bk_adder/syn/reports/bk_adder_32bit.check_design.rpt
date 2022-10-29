@@ -1,0 +1,37 @@
+ 
+****************************************
+check_design summary:
+Version:     P-2019.03-SP5
+Date:        Wed Apr  6 21:00:02 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               1
+    Connected to power or ground (LINT-32)                          1
+
+Nets                                                               18
+    Unloaded nets (LINT-2)                                         18
+--------------------------------------------------------------------------------
+
+Warning: In design 'bk_adder_32bit', net 'level2_p[2]' driven by pin 'RTDO2/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level3_p[4]' driven by pin 'RTDO3/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level4_p_6' driven by pin 'RTDO4/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level4_p[8]' driven by pin 'RTDO4_1/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level5_p_10' driven by pin 'RTDO5/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level5_p_12' driven by pin 'RTDO5_1/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level5_p[16]' driven by pin 'RTDO5_3/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level5_p_31' driven by pin 'DO5/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level6_p_14' driven by pin 'RTDO6/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level6_p_18' driven by pin 'RTDO6_1/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level6_p_20' driven by pin 'RTDO6_2/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level6_p[24]' driven by pin 'RTDO6_4/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level7_p_22' driven by pin 'RTDO7/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level7_p_26' driven by pin 'RTDO7_1/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level7_p[28]' driven by pin 'RTDO7_2/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level8_p_30' driven by pin 'RTDO8/po' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'level8_g_30' driven by pin 'RTDO8/go' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', net 'g_i[0]' driven by pin 'PG_generate[0].PG/g' has no loads. (LINT-2)
+Warning: In design 'bk_adder_32bit', a pin on submodule 'DO' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'pi1' is connected to logic 0. 
+1

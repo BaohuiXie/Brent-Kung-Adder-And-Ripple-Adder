@@ -1,0 +1,119 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : bk_adder_32bit
+Version: P-2019.03-SP5
+Date   : Wed Apr  6 21:00:07 2022
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[15] (input port clocked by VCLK)
+  Endpoint: sum[30] (output port clocked by VCLK)
+  Path Group: FEEDTHROUGH
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bk_adder_32bit     5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                            0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  input external delay                                              1.00       1.00 f
+  a[15] (in)                                              0.10      0.00       1.00 f
+  a[15] (net)                                   2                   0.00       1.00 f
+  PG_generate_15__PG/a (PG_generator_17)                            0.00       1.00 f
+  PG_generate_15__PG/a (net)                                        0.00       1.00 f
+  PG_generate_15__PG/U2/Z (XOR2_X1)                       0.04      0.28       1.28 f
+  PG_generate_15__PG/p (net)                    3                   0.00       1.28 f
+  PG_generate_15__PG/p (PG_generator_17)                            0.00       1.28 f
+  p_i[15] (net)                                                     0.00       1.28 f
+  level1_dot_operator_forward_tree_15__DO1/pi2 (dot_operator_50)     0.00      1.28 f
+  level1_dot_operator_forward_tree_15__DO1/pi2 (net)                0.00       1.28 f
+  level1_dot_operator_forward_tree_15__DO1/U3/ZN (AOI21_X1)     0.09     0.14     1.42 r
+  level1_dot_operator_forward_tree_15__DO1/n1 (net)     1           0.00       1.42 r
+  level1_dot_operator_forward_tree_15__DO1/U2/ZN (INV_X1)     0.02     0.05     1.47 f
+  level1_dot_operator_forward_tree_15__DO1/go (net)     1           0.00       1.47 f
+  level1_dot_operator_forward_tree_15__DO1/go (dot_operator_50)     0.00       1.47 f
+  level1_g_15 (net)                                                 0.00       1.47 f
+  level2_dot_operator_forward_tree_15__DO2/gi2 (dot_operator_37)     0.00      1.47 f
+  level2_dot_operator_forward_tree_15__DO2/gi2 (net)                0.00       1.47 f
+  level2_dot_operator_forward_tree_15__DO2/U3/ZN (AOI21_X1)     0.09     0.16     1.63 r
+  level2_dot_operator_forward_tree_15__DO2/n1 (net)     1           0.00       1.63 r
+  level2_dot_operator_forward_tree_15__DO2/U2/ZN (INV_X1)     0.02     0.05     1.68 f
+  level2_dot_operator_forward_tree_15__DO2/go (net)     1           0.00       1.68 f
+  level2_dot_operator_forward_tree_15__DO2/go (dot_operator_37)     0.00       1.68 f
+  level2_g_15 (net)                                                 0.00       1.68 f
+  level3_dot_operator_forward_tree_15__DO3/gi2 (dot_operator_29)     0.00      1.68 f
+  level3_dot_operator_forward_tree_15__DO3/gi2 (net)                0.00       1.68 f
+  level3_dot_operator_forward_tree_15__DO3/U3/ZN (AOI21_X1)     0.09     0.16     1.84 r
+  level3_dot_operator_forward_tree_15__DO3/n1 (net)     1           0.00       1.84 r
+  level3_dot_operator_forward_tree_15__DO3/U2/ZN (INV_X1)     0.02     0.05     1.89 f
+  level3_dot_operator_forward_tree_15__DO3/go (net)     1           0.00       1.89 f
+  level3_dot_operator_forward_tree_15__DO3/go (dot_operator_29)     0.00       1.89 f
+  level3_g_15 (net)                                                 0.00       1.89 f
+  DO4/gi2 (dot_operator_22)                                         0.00       1.89 f
+  DO4/gi2 (net)                                                     0.00       1.89 f
+  DO4/U3/ZN (AOI21_X1)                                    0.09      0.16       2.05 r
+  DO4/n1 (net)                                  1                   0.00       2.05 r
+  DO4/U2/ZN (INV_X1)                                      0.04      0.09       2.14 f
+  DO4/go (net)                                  6                   0.00       2.14 f
+  DO4/go (dot_operator_22)                                          0.00       2.14 f
+  level4_g_15 (net)                                                 0.00       2.14 f
+  RTDO5_6/gi1 (dot_operator_14)                                     0.00       2.14 f
+  RTDO5_6/gi1 (net)                                                 0.00       2.14 f
+  RTDO5_6/U3/ZN (AOI21_X1)                                0.09      0.12       2.26 r
+  RTDO5_6/n1 (net)                              1                   0.00       2.26 r
+  RTDO5_6/U2/ZN (INV_X1)                                  0.03      0.08       2.34 f
+  RTDO5_6/go (net)                              4                   0.00       2.34 f
+  RTDO5_6/go (dot_operator_14)                                      0.00       2.34 f
+  level5_g_23 (net)                                                 0.00       2.34 f
+  RTDO6_6/gi1 (dot_operator_6)                                      0.00       2.34 f
+  RTDO6_6/gi1 (net)                                                 0.00       2.34 f
+  RTDO6_6/U3/ZN (AOI21_X1)                                0.09      0.12       2.46 r
+  RTDO6_6/n1 (net)                              1                   0.00       2.46 r
+  RTDO6_6/U2/ZN (INV_X1)                                  0.03      0.07       2.53 f
+  RTDO6_6/go (net)                              3                   0.00       2.53 f
+  RTDO6_6/go (dot_operator_6)                                       0.00       2.53 f
+  level6_g_27 (net)                                                 0.00       2.53 f
+  RTDO7_3/gi1 (dot_operator_2)                                      0.00       2.53 f
+  RTDO7_3/gi1 (net)                                                 0.00       2.53 f
+  RTDO7_3/U3/ZN (AOI21_X1)                                0.09      0.12       2.65 r
+  RTDO7_3/n1 (net)                              1                   0.00       2.65 r
+  RTDO7_3/U2/ZN (INV_X1)                                  0.02      0.05       2.71 f
+  RTDO7_3/go (net)                              1                   0.00       2.71 f
+  RTDO7_3/go (dot_operator_2)                                       0.00       2.71 f
+  level7_g[29] (net)                                                0.00       2.71 f
+  U10/Z (XOR2_X1)                                         0.04      0.21       2.92 f
+  sum[30] (net)                                 1                   0.00       2.92 f
+  sum[30] (out)                                           0.04      0.01       2.93 f
+  data arrival time                                                            2.93
+
+  clock VCLK (rise edge)                                            5.00       5.00
+  clock network delay (ideal)                                       0.00       5.00
+  output external delay                                            -1.00       4.00
+  data required time                                                           4.00
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           4.00
+  data arrival time                                                           -2.93
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                  1.07
+
+
+1

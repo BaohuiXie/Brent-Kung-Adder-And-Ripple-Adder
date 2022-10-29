@@ -1,0 +1,92 @@
+{
+    "rp_adder_32bit": [
+        "rp_adder_32bit",
+        "rinGV",
+        "module",
+        1
+    ],
+    "rp_adder_32bit_tb": [
+        "rp_adder_32bit_tb",
+        "KZ0An",
+        "module",
+        15
+    ],
+    "AND2_X1": [
+        "AND2_X1",
+        "VuJYN",
+        "module",
+        2
+    ],
+    "AOI21_X1": [
+        "AOI21_X1",
+        "vC1RA",
+        "module",
+        3
+    ],
+    "AOI22_X1": [
+        "AOI22_X1",
+        "Mqjch",
+        "module",
+        4
+    ],
+    "INV_X1": [
+        "INV_X1",
+        "tIkV7",
+        "module",
+        5
+    ],
+    "NAND2_X1": [
+        "NAND2_X1",
+        "Q9D3j",
+        "module",
+        6
+    ],
+    "NAND3_X1": [
+        "NAND3_X1",
+        "dTgYn",
+        "module",
+        7
+    ],
+    "NOR2_X1": [
+        "NOR2_X1",
+        "niDbq",
+        "module",
+        8
+    ],
+    "OAI211_X1": [
+        "OAI211_X1",
+        "vIxGc",
+        "module",
+        9
+    ],
+    "OAI21_X1": [
+        "OAI21_X1",
+        "weLWf",
+        "module",
+        10
+    ],
+    "OR2_X1": [
+        "OR2_X1",
+        "ZF22v",
+        "module",
+        11
+    ],
+    "XNOR2_X1": [
+        "XNOR2_X1",
+        "piG48",
+        "module",
+        12
+    ],
+    "XOR2_X1": [
+        "XOR2_X1",
+        "tnN2P",
+        "module",
+        13
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        14
+    ]
+}

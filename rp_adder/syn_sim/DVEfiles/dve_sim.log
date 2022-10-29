@@ -1,0 +1,49 @@
+23:55:03    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./simv -pid 27775 -toolin /tmp/vcs_20220405155459_27773_bxieaf..stdin -toolout /tmp/vcs_20220405155459_27773_bxieaf..stdout  
+23:55:03    17 -->                                                                 [tcl] set ucliGUI::state
+23:55:03    18 -->                                                                     [tcl] gui_update_simulator_buttons
+23:55:05    19 -->                                                                         [tcl] set ucliGUI::state
+23:55:05    20 -->                                                                             [tcl] ucliCore::getToolPID
+23:55:05    21 -->                                                                                 [tcl] synopsys::env hasTB
+23:55:05    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+23:55:05    23 -->                                                                                         [tcl] synUtils::setDVEInitPhase 1
+23:55:05    24 -->                                                                                             [tcl] gui_get_env SIMSETUP::SIMVPD
+23:55:05    25 --> ...  [tcl] synopsys::dump -type VPD -file /afs/ee.ust.hk/staff/ee/bxieaf/eesm5020/rp_adder/syn_sim/inter.vpd -locking
+23:55:05    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+23:55:05    27 --> ...          [tcl] set ::dve_fid VPD0
+23:55:05    28 --> ...              [tcl] synUtils::setDVEInitPhase 0
+23:55:05    29 --> ...                  [tcl] ucliCore::getToolPID
+23:55:05    30 --> ...                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpheRy31
+23:55:05    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "Q-2020.03-SP1-1_Full64" -sync_file /tmp/vcs_dve_rpc.bxieaf.27775}
+23:55:05    32 --> ...                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.bxieaf.27775}
+23:55:06    33 --> ...                                  [tcl] dveMisc::vbusExpand rp_adder_32bit_tb
+23:55:06    34 --> ...                                      [tcl] config endofsim noexit
+23:55:06    35 --> ...                                          [tcl] config onfail enable all
+23:55:06    36 --> ...                                              [tcl] config syscaddplainmembers
+23:55:06    37 --> ...                                                  [tcl] config syscaddsourcenames
+23:55:06    38 --> ...                                                      [tcl] config syscaddstructtypes
+23:55:06    39 --> ...                                                          [tcl] synopsys::listing -disable
+23:55:17    40 --> ...                                                              [tcl] ucliGUI::vpdAddHierarchy -scope rp_adder_32bit_tb -depth 1 -file /afs/ee.ust.hk/staff/ee/bxieaf/eesm5020/rp_adder/syn_sim/inter.vpd; synopsys::dump -flush VPD0
+23:55:17    41 --> ...                                                                  [tcl] synopsys::dump -add {rp_adder_32bit_tb.a rp_adder_32bit_tb.b rp_adder_32bit_tb.cin rp_adder_32bit_tb.cout rp_adder_32bit_tb.sum } -aggregates  -fid VPD0
+23:55:27    42 --> ...                                                                      [tcl] ucliGUI::getSignalValues -scope rp_adder_32bit_tb -radix {decimal } -list {{sum[31:0]} }
+23:55:28    43 --> ...                                                                          [tcl] ucliGUI::getSignalValues -scope rp_adder_32bit_tb -radix {decimal } -list {{a[31:0]} }
+23:55:28    44 --> ...                                                                              [tcl] ucliGUI::getSignalValues -scope rp_adder_32bit_tb -radix {decimal } -list {{b[31:0]} }
+23:55:32    45 --> ...                                                                                  [tcl] synopsys::run
+23:55:32    46 --> ...                                                                                      [tcl] set ucliGUI::state
+23:55:32    47 --> ...                                                                                          [tcl] gui_update_simulator_buttons
+23:55:32    48 --> ...                                                                                              [tcl] set ucliGUI::state
+23:55:32    49 --> ...                                                                                                  [tcl] set ucliGUI::state
+23:55:32    50 --> ...  [tcl] set ucliGUI::state
+23:55:32    51 --> ...      [tcl] catch {senv activeDomain} dveMisc::result 
+23:55:32    52 --> ...          [tcl] set dveMisc::result
+23:55:32    53 --> ...              [tcl] gui_update_simulator_buttons
+23:57:15    54 --> ...                  [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+23:57:15    55 --> ...                      [tcl] synopsys::finish
+23:57:15    56 --> ...                          [tcl] set ucliGUI::state
+23:57:15    57 --> ...                              [tcl] gui_update_simulator_buttons
+23:57:15    58 --> ...                                  [tcl] set ucliGUI::state
+23:57:15    59 --> ...                                      [tcl] catch {senv activeDomain} dveMisc::result 
+23:57:15    60 --> ...                                          [tcl] set dveMisc::result
+23:57:15    61 --> ...                                              [tcl] gui_update_simulator_buttons
+23:57:15    62 --> ...                                                  [tcl] catch {senv activeDomain} dveMisc::result 
+23:57:15    63 --> ...                                                      [tcl] set dveMisc::result
+23:57:15    64 --> ...                                                          [tcl] ucli_exit

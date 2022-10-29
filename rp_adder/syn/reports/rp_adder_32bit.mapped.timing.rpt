@@ -1,0 +1,119 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : rp_adder_32bit
+Version: P-2019.03-SP5
+Date   : Wed Apr  6 20:46:47 2022
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b[0] (input port clocked by VCLK)
+  Endpoint: sum[30] (output port clocked by VCLK)
+  Path Group: FEEDTHROUGH
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rp_adder_32bit     5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                             0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  input external delay                               1.00       1.00 r
+  b[0] (in)                                0.10      0.00       1.00 r
+  b[0] (net)                     3                   0.00       1.00 r
+  U226/ZN (INV_X2)                         0.02      0.07       1.07 f
+  n236 (net)                     1                   0.00       1.07 f
+  U197/ZN (OAI21_X2)                       0.09      0.16       1.23 r
+  n237 (net)                     2                   0.00       1.23 r
+  U203/ZN (AOI22_X2)                       0.04      0.09       1.32 f
+  n160 (net)                     2                   0.00       1.32 f
+  U204/ZN (OAI211_X2)                      0.07      0.13       1.44 r
+  n241 (net)                     1                   0.00       1.44 r
+  U206/ZN (OAI211_X1)                      0.05      0.11       1.55 f
+  n243 (net)                     2                   0.00       1.55 f
+  U207/ZN (NOR2_X1)                        0.06      0.11       1.66 r
+  n159 (net)                     1                   0.00       1.66 r
+  U233/ZN (OAI211_X1)                      0.03      0.08       1.74 f
+  n246 (net)                     1                   0.00       1.74 f
+  U198/ZN (OAI211_X1)                      0.10      0.11       1.85 r
+  n292 (net)                     2                   0.00       1.85 r
+  U217/ZN (NOR2_X1)                        0.03      0.06       1.91 f
+  n181 (net)                     2                   0.00       1.91 f
+  U231/ZN (OAI211_X1)                      0.08      0.13       2.04 r
+  n256 (net)                     1                   0.00       2.04 r
+  U196/ZN (OAI211_X1)                      0.05      0.11       2.15 f
+  n258 (net)                     2                   0.00       2.15 f
+  U199/ZN (OAI21_X1)                       0.08      0.13       2.28 r
+  n155 (net)                     1                   0.00       2.28 r
+  U200/ZN (INV_X1)                         0.02      0.05       2.33 f
+  n259 (net)                     2                   0.00       2.33 f
+  U211/ZN (OAI211_X1)                      0.08      0.09       2.42 r
+  n313 (net)                     1                   0.00       2.42 r
+  U288/ZN (NAND2_X1)                       0.03      0.07       2.49 f
+  n322 (net)                     2                   0.00       2.49 f
+  U283/ZN (NAND2_X1)                       0.03      0.07       2.56 r
+  n262 (net)                     1                   0.00       2.56 r
+  U380/ZN (OAI211_X1)                      0.05      0.09       2.65 f
+  n331 (net)                     2                   0.00       2.65 f
+  U286/ZN (NAND2_X1)                       0.04      0.09       2.74 r
+  n339 (net)                     2                   0.00       2.74 r
+  U209/ZN (NAND2_X1)                       0.02      0.06       2.80 f
+  n263 (net)                     1                   0.00       2.80 f
+  U279/ZN (OAI211_X1)                      0.10      0.09       2.89 r
+  n205 (net)                     2                   0.00       2.89 r
+  U229/ZN (NAND2_X1)                       0.03      0.08       2.98 f
+  n351 (net)                     2                   0.00       2.98 f
+  U224/ZN (NAND2_X1)                       0.03      0.07       3.04 r
+  n266 (net)                     1                   0.00       3.04 r
+  U381/ZN (OAI211_X1)                      0.05      0.09       3.14 f
+  n360 (net)                     2                   0.00       3.14 f
+  U281/ZN (NAND2_X1)                       0.04      0.09       3.22 r
+  n367 (net)                     2                   0.00       3.22 r
+  U280/ZN (NAND2_X1)                       0.02      0.06       3.29 f
+  n267 (net)                     2                   0.00       3.29 f
+  U285/ZN (OAI211_X1)                      0.08      0.09       3.37 r
+  n372 (net)                     1                   0.00       3.37 r
+  U287/ZN (NAND2_X1)                       0.03      0.07       3.44 f
+  n379 (net)                     2                   0.00       3.44 f
+  U282/ZN (NAND2_X1)                       0.03      0.07       3.51 r
+  n270 (net)                     1                   0.00       3.51 r
+  U230/ZN (OAI211_X1)                      0.05      0.10       3.61 f
+  n174 (net)                     2                   0.00       3.61 f
+  U234/ZN (AND2_X2)                        0.02      0.13       3.74 f
+  n191 (net)                     2                   0.00       3.74 f
+  U232/ZN (OAI21_X2)                       0.06      0.11       3.85 r
+  n390 (net)                     1                   0.00       3.85 r
+  U261/ZN (XNOR2_X1)                       0.06      0.14       3.99 r
+  sum[30] (net)                  1                   0.00       3.99 r
+  sum[30] (out)                            0.06      0.01       4.00 r
+  data arrival time                                             4.00
+
+  clock VCLK (rise edge)                             5.00       5.00
+  clock network delay (ideal)                        0.00       5.00
+  output external delay                             -1.00       4.00
+  data required time                                            4.00
+  ------------------------------------------------------------------------------------------
+  data required time                                            4.00
+  data arrival time                                            -4.00
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.00
+
+
+1

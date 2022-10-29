@@ -1,0 +1,128 @@
+{
+    "bk_adder_32bit": [
+        "bk_adder_32bit",
+        "nIkae",
+        "module",
+        89
+    ],
+    "bk_adder_32bit_tb": [
+        "bk_adder_32bit_tb",
+        "RBauL",
+        "module",
+        90
+    ],
+    "AND2_X1": [
+        "AND2_X1",
+        "VuJYN",
+        "module",
+        91
+    ],
+    "AND2_X2": [
+        "AND2_X2",
+        "VVSsb",
+        "module",
+        96
+    ],
+    "AOI21_X1": [
+        "AOI21_X1",
+        "vC1RA",
+        "module",
+        92
+    ],
+    "AOI22_X2": [
+        "AOI22_X2",
+        "xV7Kr",
+        "module",
+        97
+    ],
+    "CLKBUF_X1": [
+        "CLKBUF_X1",
+        "Qr2gM",
+        "module",
+        98
+    ],
+    "INV_X1": [
+        "INV_X1",
+        "tIkV7",
+        "module",
+        93
+    ],
+    "INV_X2": [
+        "INV_X2",
+        "cshRd",
+        "module",
+        99
+    ],
+    "NAND2_X1": [
+        "NAND2_X1",
+        "Q9D3j",
+        "module",
+        100
+    ],
+    "NAND3_X1": [
+        "NAND3_X1",
+        "dTgYn",
+        "module",
+        101
+    ],
+    "NOR2_X1": [
+        "NOR2_X1",
+        "niDbq",
+        "module",
+        102
+    ],
+    "NOR2_X2": [
+        "NOR2_X2",
+        "rTDQE",
+        "module",
+        103
+    ],
+    "OAI211_X1": [
+        "OAI211_X1",
+        "vIxGc",
+        "module",
+        104
+    ],
+    "OAI211_X2": [
+        "OAI211_X2",
+        "I24KV",
+        "module",
+        105
+    ],
+    "OAI21_X1": [
+        "OAI21_X1",
+        "weLWf",
+        "module",
+        106
+    ],
+    "OAI21_X2": [
+        "OAI21_X2",
+        "uZHeu",
+        "module",
+        107
+    ],
+    "OR2_X1": [
+        "OR2_X1",
+        "ZF22v",
+        "module",
+        108
+    ],
+    "XNOR2_X1": [
+        "XNOR2_X1",
+        "piG48",
+        "module",
+        109
+    ],
+    "XOR2_X1": [
+        "XOR2_X1",
+        "tnN2P",
+        "module",
+        94
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        95
+    ]
+}

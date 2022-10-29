@@ -1,0 +1,131 @@
+################################################################################
+# Filename: divisor.ioc
+# Author: ZHU, Jingyang
+# Email: jzhuak@connect.ust.hk
+# Affiliation: Hong Kong University of Science and Technology
+# ------------------------------------------------------------------------------
+#
+# This file defines the IO location constraint of the bk_adder_32bit module. The input
+# pins are allocated at the top, left and some of bottom edge (on Metal 5). The output pins
+# are allocated at the right and bottom edge (on Metal 6). The space between each
+# pin is set as 1.26um. There is an offset of 1um to ensure the module pins do
+# not have any overlap with each other. Each pin dimension is set to be 0.14um x
+# 0.14um.
+#
+# Note: if we do not provide the IO location constraint for our bk_adder_32bit module,
+# the Encounter will randomly place our pins.
+################################################################################
+
+(globals
+    version = 3
+    io_order = default
+    space = 1.26
+)
+(iopin
+    (top
+	(pin name="cin"	 layer=5 width=0.1400 depth=0.1400 offset=1.0)
+	(pin name="a[0]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[0]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[1]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[1]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[2]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[2]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[3]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[3]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[4]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[4]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[5]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[5]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[6]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[6]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[7]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[7]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[8]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[8]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[9]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[9]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[10]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[10]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[11]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[11]"	 layer=5 width=0.1400 depth=0.1400 )
+    )
+    (left
+	(pin name="a[12]"	 layer=5 width=0.1400 depth=0.1400 offset=1.0)
+	(pin name="b[12]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[13]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[13]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[14]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[14]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[15]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[15]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[16]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[16]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[17]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[17]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[18]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[18]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[19]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[19]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[20]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[20]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[21]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[21]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[22]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[22]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[23]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[23]"	 layer=5 width=0.1400 depth=0.1400 )
+    )
+    (bottom
+	(pin name="a[24]"	 layer=5 width=0.1400 depth=0.1400 offset=1.0)
+	(pin name="b[24]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[25]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[25]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[26]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[26]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[27]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[27]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[28]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[28]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[29]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[29]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[30]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[30]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="a[31]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="b[31]"	 layer=5 width=0.1400 depth=0.1400 )
+	(pin name="sum[31]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[30]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[29]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[28]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[27]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[26]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[25]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[24]"	 layer=6 width=0.1400 depth=0.1400 )
+    )
+    (right
+	(pin name="sum[23]"	 layer=6 width=0.1400 depth=0.1400 offset=1.0)
+	(pin name="sum[22]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[21]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[20]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[19]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[18]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[17]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[16]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[15]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[14]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[13]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[12]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[11]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[10]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[9]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[8]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[7]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[6]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[5]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[4]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[3]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[2]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[1]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="sum[0]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="cout"	 layer=6 width=0.1400 depth=0.1400 )
+    )
+)
